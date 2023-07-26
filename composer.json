@@ -1,0 +1,21 @@
+{
+  "name": "dsoloview/checkers",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dsoloview",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-readline": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dsoloview\\Checkers\\": "src/"
+    }
+  }
+}
